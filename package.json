@@ -1,0 +1,20 @@
+{
+  "name": "mailSender",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^14.2.0",
+    "express": "^4.17.2",
+    "googleapis": "^92.0.0",
+    "multer": "^1.4.4",
+    "nodemailer": "^6.7.2",
+    "transporter": "^"
+  },
+  "scripts": {
+    "start": "nodemon -i attachments index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
